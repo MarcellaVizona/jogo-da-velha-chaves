@@ -1,0 +1,76 @@
+main{
+    text-align: center;
+}
+body{
+    background-image: url(../img/fundo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tabuleiro{
+    text-align: center;
+}
+
+.tabuleiro div input{
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+    border:  3px  solid rgb(0, 0, 0);
+    border-radius: 27px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color:white;
+    font-family:Lucida Handwriting;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    font-family:Lucida Handwriting;
+    margin-top: 15px;
+    
+}
+
+hr{
+    width: 70%;
+    margin-top: 2px;
+
+}
+
+h2{
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family:Lucida Handwriting;
+}
+
+#btnReiniciar{
+    border-radius: 10px;
+    background-color: #fffefe;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 9px 28px;
+    font-family: Lucida Handwriting ;
+    font-size: 35;
+  
+
+}
+
+
+.btn{
+    text-align: right;
+}
+
+.containerPersonagens div input {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

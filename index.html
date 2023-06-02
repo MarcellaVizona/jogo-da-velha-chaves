@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="/img/chaveslogo.png">
+    <title>Jogo da Velha do chaves </title>
+
+</head>
+
+<body>
+    <main>
+
+        <section>
+            <h1>Jogo da Velha do chaves</h1>
+        </section>
+        <hr>
+        <br>
+
+        <section id="containerPersonagens" class="containerPersonagens">
+            <h2>Selecione o <span id="ordemPersonagem">1º</span> personagem</h2>
+            <div class="chaves">
+                <input type="button" value=" " id="chaves1" onclick="clickchaves('chaves')">
+                <input type="button" value=" " id="chaves2" onclick="clickchaves('chiquinha')">
+                <input type="button" value=" " id="chaves3" onclick="clickchaves('kiko')">
+                <input type="button" value=" " id="chaves4" onclick="clickchaves('donaflorinda')">
+                <input type="button" value=" " id="chaves5" onclick="clickchaves('seumadruga')">
+                <input type="button" value=" " id="chaves6" onclick="clickchaves('bruxa71')">
+            </div>
+            <div class="chaves">
+                <input type="button" value=" " id="chaves7" onclick="clickchaves('donaneves')">
+                <input type="button" value=" " id="chaves8" onclick="clickchaves('seubarriga')">
+                <input type="button" value=" " id="chaves9" onclick="clickchaves('popis')">
+                <input type="button" value=" " id="chaves10" onclick="clickchaves('nhonho')">
+                <input type="button" value=" " id="chaves11" onclick="clickchaves('jaiminho')">
+                <input type="button" value=" " id="chaves12" onclick="clickchaves('professor')">
+            </div>
+        </section>
+
+
+        <section class="tabuleiro" id="containerTabuleiro">
+            <div>
+                <input type="button" value=" " id="btn1" onclick="clickBtn1()">
+                <input type="button" value=" " id="btn2" onclick="clickBtn2()">
+                <input type="button" value=" " id="btn3" onclick="clickBtn3()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn4" onclick="clickBtn4()">
+                <input type="button" value=" " id="btn5" onclick="clickBtn5()">
+                <input type="button" value=" " id="btn6" onclick="clickBtn6()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn7" onclick="clickBtn7()">
+                <input type="button" value=" " id="btn8" onclick="clickBtn8()">
+                <input type="button" value=" " id="btn9" onclick="clickBtn9()">
+            </div>
+
+            <section>
+                <h2>
+                    <span id="lblJogador">Jogador 1 </span>
+                    <span id="lblJogadas">(1ª Jogada)</span>
+                </h2>
+
+            </section>
+
+           
+        </section>
+
+        <section>
+            <div class="btn">
+            <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()" hidden>
+        </div>
+    </section>
+
+    <section>
+        
+
+    </div>
+</section>
+        
+    </main>
+    
+    <!--Java-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
