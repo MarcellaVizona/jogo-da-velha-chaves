@@ -58,9 +58,9 @@ h2{
 }
 
 
-.btn{
+/* .btn{
     text-align: right;
-}
+} */
 
 .containerPersonagens div input {
     width: 100px;
@@ -72,5 +72,19 @@ h2{
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+button{
+    border-radius: 10px;
+    background-color: #fffefe;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 9px 28px;
+    font-family: Lucida Handwriting ;
+    font-size: 35;
+    margin: 4px;
+   
+}
+#btnVoltar{
+    text-align: right;
 }
 

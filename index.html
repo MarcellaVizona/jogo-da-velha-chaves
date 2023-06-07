@@ -23,11 +23,11 @@
         <br>
 
         <section id="containerPersonagens" class="containerPersonagens">
-            <h2>Selecione o <span id="ordemPersonagem">1º</span> personagem</h2>
+            <h2>Selecione o <span id="ordemPersonagem"> 1° </span> personagens</h2>
             <div class="chaves">
                 <input type="button" value=" " id="chaves1" onclick="clickchaves('chaves')">
-                <input type="button" value=" " id="chaves2" onclick="clickchaves('chiquinha')">
-                <input type="button" value=" " id="chaves3" onclick="clickchaves('kiko')">
+                <input type="button" value=" " id="chaves2" onclick="clickchaves('kiko')">
+                <input type="button" value=" " id="chaves3" onclick="clickchaves('chiquinha')">
                 <input type="button" value=" " id="chaves4" onclick="clickchaves('donaflorinda')">
                 <input type="button" value=" " id="chaves5" onclick="clickchaves('seumadruga')">
                 <input type="button" value=" " id="chaves6" onclick="clickchaves('bruxa71')">
@@ -65,26 +65,26 @@
                     <span id="lblJogador">Jogador 1 </span>
                     <span id="lblJogadas">(1ª Jogada)</span>
                 </h2>
-
             </section>
 
-           
         </section>
 
-        <section>
+        <section id="containerReiniciar" class="reiniciar">
             <div class="btn">
-            <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()" hidden>
-        </div>
-    </section>
+                <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()" hidden>
+            </div>
+        </section>
 
-    <section>
-        
+        <section id="containerVoltar" class="voltar">
+            <div class="voltar">
+                <button type="button" id="btnVoltar" onclick="window.location.reload()" hidden> Voltar ao inicio</button>
+            </div>
+        </section>
 
-    </div>
-</section>
-        
+
+
     </main>
-    
+
     <!--Java-->
     <script src="js/script.js"></script>
 </body>
