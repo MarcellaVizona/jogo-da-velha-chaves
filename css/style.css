@@ -53,6 +53,7 @@ h2{
     padding: 9px 28px;
     font-family: Lucida Handwriting ;
     font-size: 35;
+    margin-top: 1px;
   
 
 }
@@ -81,10 +82,10 @@ button{
     padding: 9px 28px;
     font-family: Lucida Handwriting ;
     font-size: 35;
-    margin: 4px;
+    margin-top: -7px;
    
 }
-#btnVoltar{
+.voltar{
     text-align: right;
 }
 
