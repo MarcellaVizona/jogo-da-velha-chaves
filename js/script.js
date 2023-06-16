@@ -17,18 +17,18 @@ let jogador1 = null;
 let jogador2 = null;
 
 // Personagens
-let chaves = "url('../img/chaves.png')";
-let kiko = "url('../img/kiko.png')";
-let chiquinha = "url('../img/chiquinha.png')";
-let donaflorinda = "url('../img/donaflorinda.png')";
-let seumadruga = "url('../img/seumadruga.png')";
-let bruxa71 = "url('../img/bruxa.png')";
-let donaneves = "url('../img/donaneves.png')";
-let seubarriga = "url('../img/seubarriga.png')";
-let popis = "url('../img/popis.png')";
-let nhonho = "url('../img/nhonho.png')";
-let jaiminho = "url('../img/jaiminho.png')";
-let professor = "url('../img/professor.png')";
+let chaves = "url('img/chaves.png')";
+let kiko = "url('img/kiko.png')";
+let chiquinha = "url('img/chiquinha.png')";
+let donaflorinda = "url('img/donaflorinda.png')";
+let seumadruga = "url('img/seumadruga.png')";
+let bruxa71 = "url('img/bruxa.png')";
+let donaneves = "url('img/donaneves.png')";
+let seubarriga = "url('img/seubarriga.png')";
+let popis = "url('img/popis.png')";
+let nhonho = "url('img/nhonho.png')";
+let jaiminho = "url('img/jaiminho.png')";
+let professor = "url('img/professor.png')";
 
 // Atribui imagens para escolha do personage
 let chaves1 = document.getElementById('chaves1');
