@@ -17,18 +17,18 @@ let jogador1 = null;
 let jogador2 = null;
 
 // Personagens
-let chaves = "url('./img/chaves.png')";
-let kiko = "url('./img/kiko.png')";
-let chiquinha = "url('./img/chiquinha.png')";
-let donaflorinda = "url('./img/donaflorinda.png')";
-let seumadruga = "url('./img/seumadruga.png')";
-let bruxa71 = "url('./img/bruxa.png')";
-let donaneves = "url('./img/donaneves.png')";
-let seubarriga = "url('./img/seubarriga.png')";
-let popis = "url('./img/popis.png')";
-let nhonho = "url('./img/nhonho.png')";
-let jaiminho = "url('./img/jaiminho.png')";
-let professor = "url('./img/professor.png')";
+let chaves = "url('../img/chaves.png')";
+let kiko = "url('../img/kiko.png')";
+let chiquinha = "url('../img/chiquinha.png')";
+let donaflorinda = "url('../img/donaflorinda.png')";
+let seumadruga = "url('../img/seumadruga.png')";
+let bruxa71 = "url('../img/bruxa.png')";
+let donaneves = "url('../img/donaneves.png')";
+let seubarriga = "url('../img/seubarriga.png')";
+let popis = "url('../img/popis.png')";
+let nhonho = "url('../img/nhonho.png')";
+let jaiminho = "url('../img/jaiminho.png')";
+let professor = "url('../img/professor.png')";
 
 // Atribui imagens para escolha do personage
 let chaves1 = document.getElementById('chaves1');
@@ -424,32 +424,32 @@ function clickReiniciar() {
 
 }
 
-function clickchaves(pokemonSelecionado) {
+function clickchaves(personagemSelecionado) {
     let jogadorSelecionado = null;
 
-    if (pokemonSelecionado == 'chaves') {
+    if (personagemSelecionado == 'chaves') {
         jogadorSelecionado = chaves;
-    } else if (pokemonSelecionado == 'kiko') {
+    } else if (personagemSelecionado == 'kiko') {
         jogadorSelecionado = kiko;
-    } else if (pokemonSelecionado == 'chiquinha') {
+    } else if (personagemSelecionado == 'chiquinha') {
         jogadorSelecionado = chiquinha;
-    } else if (pokemonSelecionado == 'donaflorinda') {
+    } else if (personagemSelecionado == 'donaflorinda') {
         jogadorSelecionado = donaflorinda;
-    } else if (pokemonSelecionado == 'seumadruga') {
+    } else if (personagemSelecionado == 'seumadruga') {
         jogadorSelecionado = seumadruga;
-    } else if (pokemonSelecionado == 'bruxa71') {
+    } else if (personagemSelecionado == 'bruxa71') {
         jogadorSelecionado = bruxa71;
-    } else if (pokemonSelecionado == 'donaneves') {
+    } else if (personagemSelecionado == 'donaneves') {
         jogadorSelecionado = donaneves;
-    } else if (pokemonSelecionado == 'seubarriga') {
+    } else if (personagemSelecionado == 'seubarriga') {
         jogadorSelecionado = seubarriga;
-    } else if (pokemonSelecionado == 'popis') {
+    } else if (personagemSelecionado == 'popis') {
         jogadorSelecionado = popis;
-    } else if (pokemonSelecionado == 'nhonho') {
+    } else if (personagemSelecionado == 'nhonho') {
         jogadorSelecionado = nhonho;
-    } else if (pokemonSelecionado == 'jaiminho') {
+    } else if (personagemSelecionado == 'jaiminho') {
         jogadorSelecionado = jaiminho;
-    } else if (pokemonSelecionado == 'professor') {
+    } else if (personagemSelecionado == 'professor') {
         jogadorSelecionado = professor;
     }
 
